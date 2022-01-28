@@ -55,3 +55,18 @@ function calcularAreaCuadrado(){
   const area = areaCuadrado(value)
   alert(area)
 }
+
+function calcularPerimetroCirculo(){
+  const input = document.getElementById("InputCirculo")
+  const value = input.value;
+  const perimetro = perimetroCirculo(value)
+  alert(perimetro)
+
+}
+function calcularAreaCirculo(){
+  const input = document.getElementById("InputCirculo")
+  const value = input.value;
+  const area = areaCirculo(value)
+  alert(area)
+
+}

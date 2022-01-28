@@ -22,6 +22,8 @@ header h1, header p {
 div {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 div section:first-child {
     background-color: var(--secondary-color);
@@ -47,6 +49,7 @@ section{
 }
 section h2{
     text-align: center;
+    margin:10px;
 }
 section form{
     margin: 20px;

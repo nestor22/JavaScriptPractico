@@ -1,0 +1,76 @@
+:root{
+    --primary-color: #f2ebe5;
+    --secondary-color: #647295;
+    --third-color: #9f496e;
+    --four-color: #4d4650;
+    
+}
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary-color)
+}
+
+header h1, header p {
+    text-align: center;
+    margin: 20px;
+}
+div {
+    display: flex;
+    flex-direction: row;
+}
+div section:first-child {
+    background-color: var(--secondary-color);
+    color: #fff
+}
+div section:nth-child(2) {
+    background-color: var(--third-color);
+    color: #fff
+}
+div section:last-child {
+    background-color: var(--four-color);
+    color: #fff
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    margin: 14px;
+    border-radius: 6px;
+
+}
+section h2{
+    text-align: center;
+}
+section form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+section form label, section form input, section form button{
+    margin-bottom: 12px;
+    padding-top: 4px;
+}
+
+section form input{
+    border-radius: 4px;
+    height: 24px;
+    font-size: 18px;
+}
+
+section form button{
+    border-radius: 4px;
+    background-color: #3299b6;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #fff;
+}

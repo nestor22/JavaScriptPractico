@@ -14,3 +14,9 @@
 - Tercer Paso: Crear las funciones en
 - Cuarto Paso: implementar en HTML
 
+## Taller #3:Medidas de tendencia central 
+- Primer paso: definir las formulas
+- Segundo Paso: implementar las formulas en JS
+- Tercer Paso: Crear las funciones en
+- Cuarto Paso: implementar en HTML
+
